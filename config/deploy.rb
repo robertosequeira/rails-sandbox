@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 # Change these
-server '45.55.34.23', port: 22, roles: [:web, :app, :db], primary: true
+server 'rails.roberto-sequeira.com', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:robertosequeira/rails-sandbox.git'
 set :application,     'rails-sandbox'
