@@ -23,3 +23,14 @@ For server configuration I followed some DigitalOcean's tutorials which seems to
 
 1. Puma
 2. Capistrano
+
+# TODO:
+
+https://www.ruby-toolbox.com/
+
+1. Site Authentication - https://www.ruby-toolbox.com/categories/rails_authentication
+2. OAuth
+3. Authorization - https://www.ruby-toolbox.com/categories/rails_authorization
+4. ...
+
+
