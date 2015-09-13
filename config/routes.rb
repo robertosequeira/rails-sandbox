@@ -1,5 +1,19 @@
 Rails.application.routes.draw do
-  root 'home#index'
+
+  root to: 'home#index'
+  get 'profile', to: 'home#profile'
+
+  # How to customize devise routes
+  # http://iampedantic.com/post/41170460234/fully-customizing-devise-routes
+  # https://gist.github.com/chrishough/6dd44fc841e80bbc2265
+  devise_for :users, :skip => [:sessions]
+  as :user do
+    get 'login' => 'devise/sessions#new', :as => :new_user_session
+    post 'login' => 'devise/sessions#create', :as => :user_session
+    delete 'logout' => 'devise/sessions#destroy', :as => :destroy_user_session
+  end
+
+  # -------------------------------------------------------------------------------
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
