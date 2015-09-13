@@ -32,6 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'puma', '~> 2.13.4'
 gem 'pg', '~> 0.18.3'
+gem 'dotenv-rails', '~> 2.0.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
