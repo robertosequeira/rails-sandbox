@@ -4,6 +4,6 @@ class HomeController < ApplicationController
   def index
   end
 
-  def profile
+  def restricted
   end
 end

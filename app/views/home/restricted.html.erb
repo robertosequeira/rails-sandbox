@@ -1,0 +1,22 @@
+<div class="page-header">
+  <h1>This is a restricted area</h1>
+</div>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    Welcome <strong><%= "#{current_user.email}" %></strong>
+  </div>
+  <div class="panel-body">
+    <ul>
+      <li>Edit profile</li>
+      <li>Change Password</li>
+      <li>...</li>
+    </ul>
+  </div>
+  <div class="panel-footer">
+    <p class="text-right">
+      <%= Time.now.strftime("%d-%m-%Y %H:%M:%S") %>
+    </p>
+  </div>
+</div>
+

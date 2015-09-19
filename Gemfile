@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.2.3'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 gem 'rails_12factor', group: :production
@@ -28,15 +27,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
 gem 'puma'
-# gem 'dotenv-rails', '~> 2.0.2'
+gem 'dotenv-rails', '~> 2.0.2'
 gem 'devise', '~> 3.5.2'
+
+gem 'bootstrap-sass', '~> 3.3.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

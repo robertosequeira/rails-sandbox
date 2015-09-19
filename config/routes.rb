@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   root to: 'home#index'
-  get 'profile', to: 'home#profile'
+  get 'restricted', to: 'home#restricted', as: 'restricted'
 
   # How to customize devise routes
   # http://iampedantic.com/post/41170460234/fully-customizing-devise-routes
