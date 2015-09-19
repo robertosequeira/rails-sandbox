@@ -2,7 +2,9 @@
 
 Purpose of this repo is to track changes added while doing some experiments related to rails features and tools regularly used at the Rails ecosystem.
 
-By now the site is hosted at a $5/mo DigitalOcean VPS and can be accessed at [rails.roberto-sequeira.com](http://rails.roberto-sequeira.com)
+~~By now the site is hosted at a $5/mo DigitalOcean VPS and can be accessed at [rails.roberto-sequeira.com](http://rails.roberto-sequeira.com)~~
+
+By now the site is hosted at a Heroku free Dyno and can be accessed at [rails-sandbox-app.heroku.com](https://rails-sandbox-app.herokuapp.com/)
 
 ## Server configuration
 
