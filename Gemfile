@@ -40,10 +40,11 @@ group :development, :test do
   gem 'byebug'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+
+  gem 'mailcatcher', '~> 0.6.1'
 end
 
 group :development do
-
   gem 'capistrano',         require: false
   gem 'capistrano-rvm',     require: false
   gem 'capistrano-rails',   require: false
