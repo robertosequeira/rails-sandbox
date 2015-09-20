@@ -91,10 +91,14 @@ I found Heroku provides a really convenient service for what I want from now on 
 
 ## TODO:
 
-https://www.ruby-toolbox.com/
-
 1. OAuth - Omniauth
 2. Authorization - https://www.ruby-toolbox.com/categories/rails_authorization
-3. We'll see
+  * CanCanCan - https://github.com/CanCanCommunity/cancancan
+  * Pundit - https://github.com/elabs/pundit
+3. Better Errors - https://github.com/charliesome/better_errors
+4. We'll see
 
+### Review
 
+* https://www.ruby-toolbox.com/
+* https://infinum.co/the-capsized-eight/articles/a-gem-for-every-occasion-11-great-ruby-libraries-we-use-on-every-project
