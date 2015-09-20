@@ -4,14 +4,15 @@ Purpose of this repo is to track changes added while doing some experiments rela
 
 ~~By now the site is hosted at a $5/mo DigitalOcean VPS and can be accessed at [rails.roberto-sequeira.com](http://rails.roberto-sequeira.com)~~
 
-By now the site is hosted at a Heroku free Dyno and can be accessed at [rails-sandbox-app.heroku.com](https://rails-sandbox-app.herokuapp.com/)
+By now the site is hosted at a Heroku free Dyno and can be accessed at [rails.roberto-sequeira.com](http://rails.roberto-sequeira.com) or at [rails-sandbox-app.heroku.com](https://rails-sandbox-app.herokuapp.com/)
 
 
 ## Contents
 
 * [Tools](#tools)
 * [DigitalOcean server configuration](#digitalocean-server-configuration)
-* [Moving to heroku](#tools)
+* [Moving to heroku](#moving-to-heroku)
+* [TODO](#todo)
 
 
 ## Tools
