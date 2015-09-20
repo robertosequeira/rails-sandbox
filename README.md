@@ -9,11 +9,24 @@ By now the site is hosted at a Heroku free Dyno and can be accessed at [rails.ro
 
 ## Contents
 
+* [TODO](#todo)
 * [Tools](#tools)
 * [DigitalOcean server configuration](#digitalocean-server-configuration)
 * [Moving to heroku](#moving-to-heroku)
-* [TODO](#todo)
 
+## TODO:
+
+1. OAuth - Omniauth
+2. Authorization - https://www.ruby-toolbox.com/categories/rails_authorization
+  * CanCanCan - https://github.com/CanCanCommunity/cancancan
+  * Pundit - https://github.com/elabs/pundit
+3. Better Errors - https://github.com/charliesome/better_errors
+4. We'll see
+
+### Review
+
+* https://www.ruby-toolbox.com/
+* https://infinum.co/the-capsized-eight/articles/a-gem-for-every-occasion-11-great-ruby-libraries-we-use-on-every-project
 
 ## Tools
 
@@ -88,17 +101,3 @@ Some of the server features and tools:
 
 I decided to move the app to Heroku mainly because after I was able to configure Capistrano to deploy to a VPS there is no point on keeping that server alive. 
 I found Heroku provides a really convenient service for what I want from now on for this app.
-
-## TODO:
-
-1. OAuth - Omniauth
-2. Authorization - https://www.ruby-toolbox.com/categories/rails_authorization
-  * CanCanCan - https://github.com/CanCanCommunity/cancancan
-  * Pundit - https://github.com/elabs/pundit
-3. Better Errors - https://github.com/charliesome/better_errors
-4. We'll see
-
-### Review
-
-* https://www.ruby-toolbox.com/
-* https://infinum.co/the-capsized-eight/articles/a-gem-for-every-occasion-11-great-ruby-libraries-we-use-on-every-project
