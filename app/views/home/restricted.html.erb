@@ -15,7 +15,7 @@
   </div>
   <div class="panel-footer">
     <p class="text-right">
-      <%= Time.now.strftime("%d-%m-%Y %H:%M:%S") %>
+      <%= Time.now.in_time_zone('Central America').strftime("%d-%m-%Y %H:%M:%S %Z") %>
     </p>
   </div>
 </div>
