@@ -4,9 +4,11 @@ Rails.application.routes.draw do
   get 'restricted', to: 'home#restricted', as: 'restricted'
 
   # How to customize devise routes
+  # http://www.rubydoc.info/github/plataformatec/devise/ActionDispatch%2FRouting%2FMapper%3Adevise_for
+  # Some additional info
   # http://iampedantic.com/post/41170460234/fully-customizing-devise-routes
   # https://gist.github.com/chrishough/6dd44fc841e80bbc2265
-  devise_for :users, :skip => [:sessions]
+  devise_for :users, skip: [:sessions]
   as :user do
     get 'login' => 'devise/sessions#new', :as => :new_user_session
     post 'login' => 'devise/sessions#create', :as => :user_session
